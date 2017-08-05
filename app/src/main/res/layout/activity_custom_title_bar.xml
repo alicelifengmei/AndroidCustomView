@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.example.administrator.customerview.view.CustomTitleBar
+    android:id="@+id/custom_title1"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/colorAccent"
+    custom:leftText="返回"
+    custom:leftTextColor="@color/colorPrimary"
+    custom:rightTextColor="@color/colorPrimary"
+    custom:rightText="查询"
+    custom:titleText="标题"
+    />
+    <com.example.administrator.customerview.view.CustomTitleBar
+        android:id="@+id/custom_title2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_title_bg"
+        custom:leftImg="@drawable/mine"
+        custom:rightImg="@drawable/msg"
+        custom:titleImg="@drawable/home"
+        />
+
+    <com.example.administrator.customerview.view.CustomTitleBar
+        android:id="@+id/custom_title3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_title_bg"
+        custom:leftImg="@drawable/mine"
+        custom:leftText="我的"
+        custom:titleText="标题"
+        custom:rightText="消息"
+        custom:rightImg="@drawable/msg"
+        />
+
+</LinearLayout>

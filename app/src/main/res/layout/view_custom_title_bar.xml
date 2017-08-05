@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--使用merge 减少布局的层级-->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:minHeight="20dp"
+        android:minWidth="20dp"
+        android:textSize="14sp"
+        android:background="@null"
+        />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:minWidth="45dp"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginRight="2dp"
+        android:minHeight="20dp"
+        android:minWidth="20dp"
+        android:textSize="14sp"
+        android:background="@null"
+        />
+
+</merge>
